@@ -1,0 +1,890 @@
+<html lang="id" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Beauty Salon | Salon Ramah, Hasil Nggak Pernah Salah di Jakarta Timur</title>
+    <meta name="description" content="Green Beauty Salon Jakarta Timur. Dapatkan transformasi rambut impian dengan pelayanan personal, hasil konsisten bagus, dan harga terjangkau. Rating 4.9 dari 376+ ulasan.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Tailwind Config for Custom Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#ab01b7',
+                        'primary-hover': '#8a0194',
+                        'primary-light': '#fdf0fe',
+                        secondary: '#1e40af',
+                        dark: '#0f172a',
+                        light: '#f8fafc',
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 40px -10px rgba(171, 1, 183, 0.1)',
+                        'card': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles for Animations & FAQ */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .fade-in-up.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Native Accordion Styling */
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary ~ * {
+            animation: slideDown 0.3s ease-in-out;
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Gradient Text */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #ab01b7, #1e40af);
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Inter, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.-bottom-8{bottom:-2rem}.-left-20{left:-5rem}.-right-40{right:-10rem}.-right-6{right:-1.5rem}.-right-8{right:-2rem}.-top-40{top:-10rem}.bottom-0{bottom:0px}.bottom-6{bottom:1.5rem}.left-0{left:0px}.left-6{left:1.5rem}.right-0{right:0px}.right-16{right:4rem}.right-6{right:1.5rem}.top-0{top:0px}.top-1\/2{top:50%}.top-40{top:10rem}.-z-10{z-index:-10}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.col-span-1{grid-column:span 1 / span 1}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-0\.5{margin-top:0.125rem}.mt-1{margin-top:0.25rem}.mt-12{margin-top:3rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-\[4\/5\]{aspect-ratio:4/5}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-4{height:1rem}.h-48{height:12rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-7{height:1.75rem}.h-72{height:18rem}.h-8{height:2rem}.h-96{height:24rem}.h-\[400px\]{height:400px}.h-full{height:100%}.w-1\/2{width:50%}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-24{width:6rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-64{width:16rem}.w-7{width:1.75rem}.w-72{width:18rem}.w-8{width:2rem}.w-96{width:24rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-lg{max-width:32rem}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-x-1\/2{--tw-translate-x:50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-1\/2{--tw-translate-y:50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.list-none{list-style-type:none}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:0.25rem}.gap-12{gap:3rem}.gap-16{gap:4rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.-space-x-3 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(-0.75rem * var(--tw-space-x-reverse));margin-left:calc(-0.75rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-x-hidden{overflow-x:hidden}.scroll-smooth{scroll-behavior:smooth}.whitespace-nowrap{white-space:nowrap}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.rounded-bl-lg{border-bottom-left-radius:0.5rem}.rounded-tr-xl{border-top-right-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-t{border-top-width:1px}.border-primary{--tw-border-opacity:1;border-color:rgb(171 1 183 / var(--tw-border-opacity, 1))}.border-primary-light{--tw-border-opacity:1;border-color:rgb(253 240 254 / var(--tw-border-opacity, 1))}.border-secondary{--tw-border-opacity:1;border-color:rgb(30 64 175 / var(--tw-border-opacity, 1))}.border-slate-100{--tw-border-opacity:1;border-color:rgb(241 245 249 / var(--tw-border-opacity, 1))}.border-slate-200{--tw-border-opacity:1;border-color:rgb(226 232 240 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-800{--tw-border-opacity:1;border-color:rgb(30 41 59 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.bg-\[\#25D366\]{--tw-bg-opacity:1;background-color:rgb(37 211 102 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-50{--tw-bg-opacity:1;background-color:rgb(239 246 255 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-50{--tw-bg-opacity:1;background-color:rgb(240 253 244 / var(--tw-bg-opacity, 1))}.bg-orange-100{--tw-bg-opacity:1;background-color:rgb(255 237 213 / var(--tw-bg-opacity, 1))}.bg-pink-100{--tw-bg-opacity:1;background-color:rgb(252 231 243 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(171 1 183 / var(--tw-bg-opacity, 1))}.bg-primary-light{--tw-bg-opacity:1;background-color:rgb(253 240 254 / var(--tw-bg-opacity, 1))}.bg-primary\/10{background-color:rgb(171 1 183 / 0.1)}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-50{--tw-bg-opacity:1;background-color:rgb(250 245 255 / var(--tw-bg-opacity, 1))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity, 1))}.bg-secondary\/10{background-color:rgb(30 64 175 / 0.1)}.bg-slate-100{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.bg-slate-50{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.bg-slate-800{--tw-bg-opacity:1;background-color:rgb(30 41 59 / var(--tw-bg-opacity, 1))}.bg-slate-900{--tw-bg-opacity:1;background-color:rgb(15 23 42 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/10{background-color:rgb(255 255 255 / 0.1)}.bg-white\/90{background-color:rgb(255 255 255 / 0.9)}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21 / var(--tw-bg-opacity, 1))}.bg-yellow-50{--tw-bg-opacity:1;background-color:rgb(254 252 232 / var(--tw-bg-opacity, 1))}.bg-white\/95{background-color:rgb(255 255 255 / 0.95)}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-l{background-image:linear-gradient(to left, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-\[\#7a0082\]{--tw-gradient-from:#7a0082 var(--tw-gradient-from-position);--tw-gradient-to:rgb(122 0 130 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-primary{--tw-gradient-from:#ab01b7 var(--tw-gradient-from-position);--tw-gradient-to:rgb(171 1 183 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-primary\/20{--tw-gradient-from:rgb(171 1 183 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(171 1 183 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-slate-900{--tw-gradient-from:#0f172a var(--tw-gradient-from-position);--tw-gradient-to:rgb(15 23 42 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-\[\#7a0082\]{--tw-gradient-to:#7a0082 var(--tw-gradient-to-position)}.to-secondary{--tw-gradient-to:#1e40af var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.fill-current{fill:currentColor}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.pb-20{padding-bottom:5rem}.pb-6{padding-bottom:1.5rem}.pb-8{padding-bottom:2rem}.pl-4{padding-left:1rem}.pt-0{padding-top:0px}.pt-16{padding-top:4rem}.pt-2{padding-top:0.5rem}.pt-32{padding-top:8rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.font-sans{font-family:Inter, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-\[1\.1\]{line-height:1.1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-0.025em}.tracking-wide{letter-spacing:0.025em}.tracking-wider{letter-spacing:0.05em}.text-dark{--tw-text-opacity:1;color:rgb(15 23 42 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-orange-700{--tw-text-opacity:1;color:rgb(194 65 12 / var(--tw-text-opacity, 1))}.text-pink-700{--tw-text-opacity:1;color:rgb(190 24 93 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(171 1 183 / var(--tw-text-opacity, 1))}.text-primary-light{--tw-text-opacity:1;color:rgb(253 240 254 / var(--tw-text-opacity, 1))}.text-primary-light\/80{color:rgb(253 240 254 / 0.8)}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-purple-700{--tw-text-opacity:1;color:rgb(126 34 206 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-secondary{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-slate-500{--tw-text-opacity:1;color:rgb(100 116 139 / var(--tw-text-opacity, 1))}.text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity, 1))}.text-slate-700{--tw-text-opacity:1;color:rgb(51 65 85 / var(--tw-text-opacity, 1))}.text-slate-800{--tw-text-opacity:1;color:rgb(30 41 59 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.text-yellow-900{--tw-text-opacity:1;color:rgb(113 63 18 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.opacity-10{opacity:0.1}.opacity-70{opacity:0.7}.opacity-80{opacity:0.8}.mix-blend-multiply{mix-blend-mode:multiply}.mix-blend-overlay{mix-blend-mode:overlay}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-soft{--tw-shadow:0 10px 40px -10px rgba(171, 1, 183, 0.1);--tw-shadow-colored:0 10px 40px -10px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-xl{--tw-blur:blur(24px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.grayscale{--tw-grayscale:grayscale(100%);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-shadow{transition-property:box-shadow;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:-translate-y-0\.5:hover{--tw-translate-y:-0.125rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-primary:hover{--tw-border-opacity:1;border-color:rgb(171 1 183 / var(--tw-border-opacity, 1))}.hover\:bg-primary:hover{--tw-bg-opacity:1;background-color:rgb(171 1 183 / var(--tw-bg-opacity, 1))}.hover\:bg-primary-hover:hover{--tw-bg-opacity:1;background-color:rgb(138 1 148 / var(--tw-bg-opacity, 1))}.hover\:bg-primary-light:hover{--tw-bg-opacity:1;background-color:rgb(253 240 254 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-100:hover{--tw-bg-opacity:1;background-color:rgb(241 245 249 / var(--tw-bg-opacity, 1))}.hover\:bg-slate-50:hover{--tw-bg-opacity:1;background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1))}.hover\:text-primary:hover{--tw-text-opacity:1;color:rgb(171 1 183 / var(--tw-text-opacity, 1))}.hover\:text-primary-light:hover{--tw-text-opacity:1;color:rgb(253 240 254 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:shadow-2xl:hover{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-card:hover{--tw-shadow:0 4px 20px -2px rgba(0, 0, 0, 0.05);--tw-shadow-colored:0 4px 20px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.group[open] .group-open\:rotate-180{--tw-rotate:180deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:opacity-100{opacity:1}@media (min-width: 640px){.sm\:block{display:block}.sm\:flex-row{flex-direction:row}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-5xl{font-size:3rem;line-height:1}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-64{height:16rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:justify-between{justify-content:space-between}.md\:gap-16{gap:4rem}.md\:text-left{text-align:left}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:ml-auto{margin-left:auto}.lg\:h-\[500px\]{height:500px}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:gap-8{gap:2rem}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:pb-32{padding-bottom:8rem}.lg\:pt-48{padding-top:12rem}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style><style id="edit-mode-style">
+        [contenteditable="true"]:hover { outline: 2px dashed #3b82f6; }
+        [contenteditable="true"] { outline: none; }
+      </style></head>
+<body class="font-sans text-slate-700 bg-slate-50 antialiased overflow-x-hidden" contenteditable="true">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 transition-all duration-300 shadow-md" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-soft">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scissors" aria-hidden="true" class="lucide lucide-scissors text-white w-6 h-6"><circle cx="6" cy="6" r="3"></circle><path d="M8.12 8.12 12 12"></path><path d="M20 4 8.12 15.88"></path><circle cx="6" cy="18" r="3"></circle><path d="M14.8 14.8 20 20"></path></svg>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-dark">Green Beauty</span>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#layanan" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Layanan</a>
+                    <a href="#keunggulan" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Keunggulan</a>
+                    <a href="#testimoni" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">Testimoni</a>
+                    <a href="#faq" class="text-sm font-medium text-slate-600 hover:text-primary transition-colors">FAQ</a>
+					<!-- Social Icons -->
+    <div class="flex items-center space-x-4 border-l border-slate-200 pl-6">
+        <a href="https://instagram.com/usernameanda" target="_blank" class="text-slate-500 hover:text-pink-600 transition-colors" title="Instagram">
+            <i data-lucide="instagram" class="w-5 h-5"></i>
+        </a>
+        <a href="https://twitter.com/usernameanda" target="_blank" class="text-slate-500 hover:text-blue-400 transition-colors" title="Twitter">
+            <i data-lucide="twitter" class="w-5 h-5"></i>
+        </a>
+    </div>
+                    <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20ingin%20reservasi%20jadwal." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center px-6 py-2.5 text-sm font-semibold text-white bg-primary hover:bg-primary-hover rounded-xl shadow-soft transition-all hover:-translate-y-0.5">
+                        Reservasi Sekarang
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-slate-600 hover:text-primary focus:outline-none p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="menu" aria-hidden="true" class="lucide lucide-menu w-6 h-6" id="menu-icon"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 absolute w-full shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2">
+                <a href="#layanan" class="mobile-link block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary hover:bg-primary-light rounded-lg">Layanan</a>
+                <a href="#keunggulan" class="mobile-link block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary hover:bg-primary-light rounded-lg">Keunggulan</a>
+                <a href="#testimoni" class="mobile-link block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary hover:bg-primary-light rounded-lg">Testimoni</a>
+                <a href="#faq" class="mobile-link block px-3 py-3 text-base font-medium text-slate-700 hover:text-primary hover:bg-primary-light rounded-lg">FAQ</a>
+                <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20ingin%20reservasi%20jadwal." target="_blank" rel="noopener noreferrer" class="block w-full text-center mt-4 px-6 py-3 text-base font-semibold text-white bg-primary rounded-xl shadow-md">
+                    Reservasi Sekarang
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+        <!-- Background Decor -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+            <div class="absolute -top-40 -right-40 w-96 h-96 bg-primary-light rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+            <div class="absolute top-40 -left-20 w-72 h-72 bg-blue-100 rounded-full mix-blend-multiply filter blur-3xl opacity-70"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+                
+                <!-- Hero Content -->
+                <div class="max-w-2xl fade-in-up is-visible">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-slate-200 shadow-sm mb-6">
+                        <div class="flex gap-1 text-yellow-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                        </div>
+                        <span class="text-sm font-medium text-slate-700">4.9/5 dari 376+ Pelanggan Puas</span>
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-dark leading-[1.1] mb-6 tracking-tight">
+                        Transformasi Rambut Impian, <br class="hidden sm:block">
+                        <span class="text-gradient">Tanpa Khawatir Gagal.</span>
+                    </h1>
+                    
+                    <p class="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed">
+                        <strong class="text-dark font-semibold">"Salon Ramah, Hasil Nggak Pernah Salah."</strong> 
+                        Berhenti menebak-nebak hasil potongan rambutmu. Di Green Beauty Salon Jakarta Timur, stylist kami siap memberikan konsultasi personal untuk menemukan gaya terbaik yang sesuai dengan karaktermu.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20ingin%20konsultasi%20dan%20reservasi." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-white bg-primary hover:bg-primary-hover rounded-xl shadow-soft transition-all hover:-translate-y-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="calendar-check" aria-hidden="true" class="lucide lucide-calendar-check w-5 h-5"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path><path d="m9 16 2 2 4-4"></path></svg>
+                            Reservasi Jadwal
+                        </a>
+                        <a href="#layanan" class="inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 rounded-xl shadow-sm transition-all hover:-translate-y-1">
+                            Lihat Layanan
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex items-center gap-4 text-sm text-slate-500">
+                        <div class="flex -space-x-3">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Customer" class="w-10 h-10 rounded-full border-2 border-white object-cover" referrerpolicy="no-referrer">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Customer" class="w-10 h-10 rounded-full border-2 border-white object-cover" referrerpolicy="no-referrer">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=100&amp;q=80" alt="Customer" class="w-10 h-10 rounded-full border-2 border-white object-cover" referrerpolicy="no-referrer">
+                            <div class="w-10 h-10 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600">+300</div>
+                        </div>
+                        <p>Telah dipercaya ratusan wanita di Jakarta Timur.</p>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="relative lg:ml-auto w-full max-w-lg mx-auto fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5]">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Stylist cutting hair at Green Beauty Salon" class="w-full h-full object-cover" referrerpolicy="no-referrer">
+                        <!-- Overlay Badge -->
+                        <div class="absolute bottom-6 left-6 right-6 bg-white/90 backdrop-blur-md rounded-xl p-4 shadow-lg flex items-center gap-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-circle" aria-hidden="true" class="lucide lucide-check-circle w-6 h-6 text-green-600"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg>
+                            </div>
+                            <div>
+                                <p class="font-bold text-dark text-sm">Konsultasi Gratis</p>
+                                <p class="text-xs text-slate-500">Stylist kami paham karakter rambutmu.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Decorative elements -->
+                    <div class="absolute -z-10 top-1/2 -right-6 w-24 h-24 bg-secondary/10 rounded-full blur-xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Logos (Optional but good for SaaS look) -->
+    <section class="py-10 border-y border-slate-100 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up is-visible">
+            <p class="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-6">Keunggulan yang Membuat Kami Berbeda</p>
+            <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale">
+                <!-- Using text as logos for styling -->
+                <span class="text-xl font-bold text-slate-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="smile" aria-hidden="true" class="lucide lucide-smile w-5 h-5"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" x2="9.01" y1="9" y2="9"></line><line x1="15" x2="15.01" y1="9" y2="9"></line></svg> Ramah</span>
+                <span class="text-xl font-bold text-slate-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sparkles" aria-hidden="true" class="lucide lucide-sparkles w-5 h-5"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg> Konsisten</span>
+                <span class="text-xl font-bold text-slate-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="wallet" aria-hidden="true" class="lucide lucide-wallet w-5 h-5"><path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"></path><path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"></path></svg> Terjangkau</span>
+                <span class="text-xl font-bold text-slate-800 flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin w-5 h-5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg> Strategis</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-24 bg-slate-50 relative" id="tentang">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="relative fade-in-up is-visible">
+                    <img src="https://images.unsplash.com/photo-1521590832167-7bfc17484d20?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Green Beauty Salon Interior" class="rounded-2xl shadow-xl z-10 relative" referrerpolicy="no-referrer">
+                    <div class="absolute -bottom-8 -right-8 w-64 h-64 bg-primary/10 rounded-full blur-3xl -z-10"></div>
+                </div>
+                <div class="fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <h2 class="text-primary font-semibold tracking-wide uppercase text-sm mb-3">Tentang Kami</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-dark mb-6 leading-tight">Lebih dari Sekadar Potong Rambut. Ini Tentang Kepercayaan Diri.</h3>
+                    <p class="text-slate-600 mb-6 text-lg leading-relaxed">
+                        Terletak di jantung Rawamangun, Jakarta Timur, <strong>Green Beauty Salon</strong> hadir sebagai solusi untuk kamu yang sering trauma dengan hasil salon yang tidak sesuai ekspektasi.
+                    </p>
+                    <p class="text-slate-600 mb-8 text-lg leading-relaxed">
+                        Kami percaya setiap orang memiliki tipe rambut unik. Itulah mengapa kami mengutamakan <strong>konsultasi personal</strong> sebelum memulai. Kakak-kakak stylist kami yang ramah akan mendengarkan keinginanmu, menganalisa tipe rambutmu, dan memberikan saran terbaik agar hasil akhirnya <em>flawless</em> dan mudah diatur setiap hari.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="border-l-4 border-primary pl-4">
+                            <p class="text-3xl font-extrabold text-dark">4.9</p>
+                            <p class="text-sm text-slate-500 font-medium mt-1">Rating Google Maps</p>
+                        </div>
+                        <div class="border-l-4 border-secondary pl-4">
+                            <p class="text-3xl font-extrabold text-dark">370+</p>
+                            <p class="text-sm text-slate-500 font-medium mt-1">Ulasan Positif</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="py-24 bg-white" id="keunggulan">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up is-visible">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm mb-3">Kenapa Memilih Kami?</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-dark mb-4">Pengalaman Premium, Tanpa Menguras Kantong</h3>
+                <p class="text-lg text-slate-600">Kami merangkum apa yang paling diinginkan pelanggan kami menjadi standar pelayanan di Green Beauty Salon.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible">
+                    <div class="w-14 h-14 bg-primary-light rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="users" aria-hidden="true" class="lucide lucide-users w-7 h-7 text-primary"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Pelayanan Personal</h4>
+                    <p class="text-slate-600">"Belum ngomong apa-apa kakaknya udah langsung ngerti tipe rambut aku." Kami berikan saran model yang paling cocok untuk bentuk wajahmu.</p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="heart-handshake" aria-hidden="true" class="lucide lucide-heart-handshake w-7 h-7 text-secondary"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Ramah &amp; Nyaman</h4>
+                    <p class="text-slate-600">Suasana salon yang adem dan staff yang asik diajak ngobrol bikin waktu perawatanmu terasa seperti me-time yang sempurna.</p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check-square" aria-hidden="true" class="lucide lucide-check-square w-7 h-7 text-green-600"><path d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"></path><path d="m9 11 3 3L22 4"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Hasil Konsisten Bagus</h4>
+                    <p class="text-slate-600">Bukan cuma kebetulan bagus sekali. Banyak pelanggan kami yang datang untuk ke-4 kalinya dan selalu puas dengan hasilnya.</p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible">
+                    <div class="w-14 h-14 bg-yellow-50 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="tag" aria-hidden="true" class="lucide lucide-tag w-7 h-7 text-yellow-600"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"></path><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Harga Terjangkau</h4>
+                    <p class="text-slate-600">Tampil cantik maksimal tidak harus mahal. Harga kami sangat bersahabat, bahkan cocok untuk kantong mahasiswa dan anak kosan.</p>
+                </div>
+
+                <!-- Benefit 5 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible" style="transition-delay: 100ms;">
+                    <div class="w-14 h-14 bg-purple-50 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map" aria-hidden="true" class="lucide lucide-map w-7 h-7 text-purple-600"><path d="M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z"></path><path d="M15 5.764v15"></path><path d="M9 3.236v15"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Lokasi Strategis</h4>
+                    <p class="text-slate-600">Berlokasi di Jl. Ampera II, Rawamangun. Sangat mudah ditemukan via Google Maps dan dekat dengan area pemukiman.</p>
+                </div>
+
+                <!-- Benefit 6 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 hover:shadow-card transition-shadow fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="w-14 h-14 bg-red-50 rounded-xl flex items-center justify-center mb-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scissors" aria-hidden="true" class="lucide lucide-scissors w-7 h-7 text-red-600"><circle cx="6" cy="6" r="3"></circle><path d="M8.12 8.12 12 12"></path><path d="M20 4 8.12 15.88"></path><circle cx="6" cy="18" r="3"></circle><path d="M14.8 14.8 20 20"></path></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-dark mb-3">Expert Stylist</h4>
+                    <p class="text-slate-600">Ditangani langsung oleh ahlinya. Stylist kami terlatih menangani berbagai masalah dan kondisi rambut dengan teknik terkini.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products/Services Section -->
+    <section class="py-24 bg-slate-900 text-white relative overflow-hidden" id="layanan">
+        <!-- Decor -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-primary/20 to-transparent -z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up is-visible">
+                <h2 class="text-primary-light font-semibold tracking-wide uppercase text-sm mb-3">Layanan Utama</h2>
+                <h3 class="text-3xl md:text-4xl font-bold mb-4">Investasi Terbaik untuk Mahkotamu</h3>
+                <p class="text-slate-300 text-lg">Pilih layanan yang sesuai dengan kebutuhan rambutmu. Konsultasikan gratis bersama kami.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 hover:-translate-y-2 transition-transform duration-300 flex flex-col fade-in-up is-visible">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Hair Treatment" class="w-full h-full object-cover" referrerpolicy="no-referrer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="text-2xl font-bold mb-2">Hair Treatment</h4>
+                        <p class="text-slate-400 mb-6 text-sm">Kembalikan kelembutan dan kilau alami rambutmu. Cocok untuk rambut kering atau rusak.</p>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-primary-light">Rp 99.000</span>
+                        </div>
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Konsultasi kondisi rambut</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Cuci &amp; Pijat relaksasi</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Pemberian vitamin premium</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20tertarik%20reservasi%20layanan%20Hair%20Treatment." target="_blank" class="block w-full py-3 px-4 bg-white/10 hover:bg-primary text-white text-center font-semibold rounded-xl transition-colors border border-white/20 hover:border-primary">
+                            Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gradient-to-b from-primary to-[#7a0082] rounded-2xl overflow-hidden border border-primary-light shadow-2xl hover:-translate-y-2 transition-transform duration-300 flex flex-col relative fade-in-up is-visible" style="transition-delay: 100ms;">
+                    <div class="absolute top-0 right-0 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl z-20">
+                        BEST SELLER
+                    </div>
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1600948836101-f9ff169f914b?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Coloring &amp; Chemical" class="w-full h-full object-cover mix-blend-overlay opacity-80" referrerpolicy="no-referrer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#7a0082] to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="text-2xl font-bold mb-2 text-white">Coloring &amp; Chemical</h4>
+                        <p class="text-primary-light/80 mb-6 text-sm">Ubah gayamu dengan warna trendi atau perbaikan tekstur rambut (Smoothing/Perming).</p>
+                        <div class="mb-6">
+                            <span class="text-sm text-primary-light/80">Mulai dari</span><br>
+                            <span class="text-3xl font-extrabold text-white">Rp 150.000</span>
+                        </div>
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-3 text-white text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-yellow-400 shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Pilihan warna premium</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-white text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-yellow-400 shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Teknik pewarnaan aman</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-white text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-yellow-400 shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Termasuk basic styling</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20tertarik%20reservasi%20layanan%20Coloring/Chemical." target="_blank" class="block w-full py-3 px-4 bg-white text-primary hover:bg-slate-100 text-center font-bold rounded-xl transition-colors shadow-lg">
+                            Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 hover:-translate-y-2 transition-transform duration-300 flex flex-col fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="h-48 overflow-hidden relative">
+                        <img src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Paket Bundling" class="w-full h-full object-cover" referrerpolicy="no-referrer">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent"></div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <h4 class="text-2xl font-bold mb-2">Paket Bundling</h4>
+                        <p class="text-slate-400 mb-6 text-sm">Solusi all-in-one untuk makeover total. Potong, rawat, dan gaya dalam satu paket hemat.</p>
+                        <div class="mb-6">
+                            <span class="text-3xl font-extrabold text-primary-light">Rp 250.000</span>
+                        </div>
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Haircut by Expert Stylist</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Deep Hair Treatment</span>
+                            </li>
+                            <li class="flex items-start gap-3 text-slate-300 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="check" aria-hidden="true" class="lucide lucide-check w-5 h-5 text-primary shrink-0"><path d="M20 6 9 17l-5-5"></path></svg>
+                                <span>Premium Blow Dry Styling</span>
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20tertarik%20reservasi%20Paket%20Bundling." target="_blank" class="block w-full py-3 px-4 bg-white/10 hover:bg-primary text-white text-center font-semibold rounded-xl transition-colors border border-white/20 hover:border-primary">
+                            Pesan Sekarang
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-12 text-center fade-in-up is-visible">
+                <p class="text-slate-400 text-sm mb-4">*Harga dapat menyesuaikan dengan panjang dan ketebalan rambut.</p>
+                <a href="https://wa.me/6285770000774?text=Halo,%20saya%20ingin%20tanya%20harga%20untuk%20layanan%20lainnya." target="_blank" class="inline-flex items-center gap-2 text-primary-light hover:text-white font-medium transition-colors">
+                    Tanya Layanan Lainnya <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="arrow-right" aria-hidden="true" class="lucide lucide-arrow-right w-4 h-4"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-24 bg-slate-50 relative overflow-hidden" id="testimoni">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 fade-in-up is-visible">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm mb-3">Apa Kata Mereka?</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-dark mb-4">Bukti Nyata, Bukan Sekadar Janji</h3>
+                <p class="text-lg text-slate-600">Baca pengalaman asli pelanggan yang telah mempercayakan mahkotanya di Green Beauty Salon.</p>
+            </div>
+
+            <!-- Masonry-like Grid for Reviews -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Review 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold text-xl">
+                            H
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Hellova Naomi</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "Cuma cari lewat maps tp ga nyangka bagus banget🥹 belum ngomong apa apa kakaknya udah langsung ngerti tipe rambut aku gabisa diapain, luv banget suka banget, mana kakaknya ramah😭💕"
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible" style="transition-delay: 100ms;">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center text-secondary font-bold text-xl">
+                            D
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Doy Ara</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "Salonnya bagus dan hasil potongannya sesuai sama yang kita mauu. Worth it kok tempatnya nyaman jugaa, kknya juga ramah dan always kasih saran yg cocok buat potongan rambut kitaa ☺️"
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-700 font-bold text-xl">
+                            H
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Hana Wowor</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "Ga pernah nyesal potong rambut di sinii!! ini kali keempat aku dtg dan selaluu sukak sama hasil potongan rambutnyaa, puas banget banget, mana murah, terjangkau utk anak kosan kayak akuu. kakaknya juga ramah❤️❤️"
+                    </p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center text-orange-700 font-bold text-xl">
+                            N
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Niluh Sari</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "Huaaaa nemu salon ini di maps. Soalnya deket sama rumah. Dan ternyata bagus bangetttttt guys. Kk nya ramah tempatnya adem jugaaa. Terus potongannya bagussssss. Btw kalian harus reservasi dulu yaaa."
+                    </p>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible" style="transition-delay: 100ms;">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-purple-700 font-bold text-xl">
+                            F
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">Febri Widya</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "Terima kasih banyak bu Awal bingun mau dimodel rambut apa, terus dibantuin pilih model. Ibu nya juga ramah banget asik dan hasilnya juga bagus!!!!😁🫶"
+                    </p>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center text-pink-700 font-bold text-xl">
+                            J
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-dark">joya l</h4>
+                            <div class="flex text-yellow-400 text-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="star" aria-hidden="true" class="lucide lucide-star w-4 h-4 fill-current"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-slate-600 text-sm leading-relaxed italic">
+                        "first time ke sini dapet impression yang bagus, kakaknya juga ramah bgt 😍, thanks Green Beauty Salon 💚"
+                    </p>
+                </div>
+
+            </div>
+            
+            <div class="mt-12 text-center fade-in-up is-visible">
+                <a href="https://www.google.com/maps/place/Green+Beauty+salon/@-6.2252903,106.834113,13z/data=!4m8!3m7!1s0x2e69f5d94a666437:0xa05f7f0729ec7516!8m2!3d-6.1953259!4d106.8837267!9m1!1b1!16s%2Fg%2F11t04yv6n2?entry=ttu" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 text-slate-700 font-semibold rounded-xl hover:bg-slate-50 transition-colors shadow-sm">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" class="w-5 h-5">
+                    Lihat Semua 376+ Ulasan di Google
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up is-visible">
+                <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Galeri Kami</h2>
+                <p class="text-lg text-slate-600">Intip suasana salon dan hasil karya stylist Green Beauty Salon.</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <img src="https://images.unsplash.com/photo-1595476108010-b4d1f10d5e43?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Gallery 1" class="rounded-xl w-full h-48 md:h-64 object-cover fade-in-up is-visible" referrerpolicy="no-referrer">
+                <img src="https://images.unsplash.com/photo-1521590832167-7bfc17484d20?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Gallery 2" class="rounded-xl w-full h-48 md:h-64 object-cover fade-in-up is-visible" style="transition-delay: 100ms;" referrerpolicy="no-referrer">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Gallery 3" class="rounded-xl w-full h-48 md:h-64 object-cover fade-in-up is-visible" style="transition-delay: 200ms;" referrerpolicy="no-referrer">
+                <img src="https://images.unsplash.com/photo-1600948836101-f9ff169f914b?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=80" alt="Gallery 4" class="rounded-xl w-full h-48 md:h-64 object-cover fade-in-up is-visible" style="transition-delay: 300ms;" referrerpolicy="no-referrer">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-slate-50" id="faq">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 fade-in-up is-visible">
+                <h2 class="text-primary font-semibold tracking-wide uppercase text-sm mb-3">Pertanyaan Umum</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-dark">Yang Sering Ditanyakan</h3>
+            </div>
+
+            <div class="space-y-4 fade-in-up is-visible">
+                <!-- FAQ 1 -->
+                <details class="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                    <summary class="flex justify-between items-center font-semibold cursor-pointer list-none p-6 text-dark hover:text-primary transition-colors">
+                        <span>Apakah saya harus melakukan reservasi sebelum datang?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-5 h-5"><path d="m6 9 6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-slate-600 px-6 pb-6 pt-0 leading-relaxed">
+                        Sangat disarankan! Untuk memastikan kamu mendapatkan pelayanan maksimal tanpa harus menunggu lama, kami merekomendasikan untuk melakukan reservasi terlebih dahulu melalui WhatsApp kami.
+                    </div>
+                </details>
+
+                <!-- FAQ 2 -->
+                <details class="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                    <summary class="flex justify-between items-center font-semibold cursor-pointer list-none p-6 text-dark hover:text-primary transition-colors">
+                        <span>Buka hari apa saja dan jam berapa?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-5 h-5"><path d="m6 9 6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-slate-600 px-6 pb-6 pt-0 leading-relaxed">
+                        Kami buka <strong>setiap hari</strong> (Senin - Minggu) mulai pukul <strong>10.00 hingga 22.00 WIB</strong>. Jadi kamu bisa datang sepulang kerja atau saat akhir pekan.
+                    </div>
+                </details>
+
+                <!-- FAQ 3 -->
+                <details class="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                    <summary class="flex justify-between items-center font-semibold cursor-pointer list-none p-6 text-dark hover:text-primary transition-colors">
+                        <span>Apakah bisa konsultasi model rambut dulu sebelum dipotong?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-5 h-5"><path d="m6 9 6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-slate-600 px-6 pb-6 pt-0 leading-relaxed">
+                        Tentu saja! Ini adalah salah satu keunggulan kami. Stylist kami akan menganalisa tipe rambut, bentuk wajah, dan gaya hidupmu sebelum memberikan saran model potongan atau warna yang paling cocok, <strong>gratis!</strong>
+                    </div>
+                </details>
+
+                <!-- FAQ 4 -->
+                <details class="group bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                    <summary class="flex justify-between items-center font-semibold cursor-pointer list-none p-6 text-dark hover:text-primary transition-colors">
+                        <span>Dimana lokasi persis Green Beauty Salon?</span>
+                        <span class="transition group-open:rotate-180">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" aria-hidden="true" class="lucide lucide-chevron-down w-5 h-5"><path d="m6 9 6 6 6-6"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="text-slate-600 px-6 pb-6 pt-0 leading-relaxed">
+                        Lokasi kami sangat strategis di Jl. Ampera II No.1, RT.9/RW.3, Rawamangun, Kec. Pulo Gadung, Jakarta Timur. Kamu bisa langsung klik peta di bagian bawah halaman ini untuk panduan navigasi.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action (Closing) -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary to-secondary -z-10"></div>
+        <!-- Abstract Shapes -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full blur-3xl -z-10 translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full blur-3xl -z-10 -translate-x-1/2 translate-y-1/2"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in-up is-visible">
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                Siap Tampil Beda dengan Rambut Baru yang Memukau?
+            </h2>
+            <p class="text-xl text-primary-light mb-10">
+                Jangan tunda lagi. Jadwalkan kedatanganmu hari ini dan biarkan tim ahli kami merawat mahkotamu.
+            </p>
+            <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20ingin%20reservasi%20jadwal." target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 px-10 py-5 text-lg font-bold text-primary bg-white hover:bg-slate-50 rounded-2xl shadow-xl transition-all hover:-translate-y-1 hover:shadow-2xl">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="message-circle" aria-hidden="true" class="lucide lucide-message-circle w-6 h-6"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path></svg>
+                Reservasi via WhatsApp Sekarang
+            </a>
+            <p class="mt-6 text-sm text-white/80">Respons cepat di jam operasional (10.00 - 22.00)</p>
+        </div>
+    </section>
+
+    <!-- Contact & Maps Section -->
+    <section class="py-24 bg-white" id="kontak">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-start">
+                
+                <!-- Contact Info -->
+                <div class="fade-in-up is-visible">
+                    <h2 class="text-3xl font-bold text-dark mb-6">Kunjungi Kami</h2>
+                    <p class="text-slate-600 mb-8 text-lg">Temukan kami dengan mudah di Rawamangun. Kami siap menyambutmu dengan senyuman dan pelayanan terbaik.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-primary-light rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin w-6 h-6 text-primary"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-dark text-lg">Alamat</h4>
+                                <p class="text-slate-600 leading-relaxed">
+                                    Jl. Ampera II No.1, RT.9/RW.3, Rawamangun, <br>
+                                    Kec. Pulo Gadung, Kota Jakarta Timur, <br>
+                                    DKI Jakarta 13220
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clock" aria-hidden="true" class="lucide lucide-clock w-6 h-6 text-secondary"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-dark text-lg">Jam Operasional</h4>
+                                <p class="text-slate-600">Senin - Minggu</p>
+                                <p class="text-slate-800 font-semibold">10.00 – 22.00 WIB</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center flex-shrink-0 mt-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone w-6 h-6 text-green-600"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-dark text-lg">Telepon / WhatsApp</h4>
+                                <p class="text-slate-600">Untuk reservasi &amp; pertanyaan:</p>
+                                <a href="https://wa.me/6285770000774" target="_blank" class="text-primary font-bold text-lg hover:underline">
+                                    +62 857-7000-0774
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="w-full h-[400px] lg:h-[500px] rounded-2xl overflow-hidden shadow-lg border border-slate-100 fade-in-up is-visible" style="transition-delay: 200ms;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126921.31663558747!2d106.83411295442765!3d-6.225290316355496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d94a666437%3A0xa05f7f0729ec7516!2sGreen%20Beauty%20salon!5e0!3m2!1sid!2sid!4v1777709273941!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12 mb-12">
+                
+                <!-- Brand -->
+                <div class="col-span-1">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="scissors" aria-hidden="true" class="lucide lucide-scissors text-white w-6 h-6"><circle cx="6" cy="6" r="3"></circle><path d="M8.12 8.12 12 12"></path><path d="M20 4 8.12 15.88"></path><circle cx="6" cy="18" r="3"></circle><path d="M14.8 14.8 20 20"></path></svg>
+                        </div>
+                        <span class="font-bold text-xl tracking-tight text-white">Green Beauty</span>
+                    </div>
+                    <p class="text-slate-400 mb-6 leading-relaxed">
+                        Salon Ramah, Hasil Nggak Pernah Salah. Destinasi perawatan rambut premium dengan harga bersahabat di Jakarta Timur.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="www.instagram.com" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
+                            <i data-lucide="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="twitter.com" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-primary hover:text-white transition-colors">
+                            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Tautan Cepat</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#layanan" class="text-slate-400 hover:text-primary-light transition-colors">Layanan Kami</a></li>
+                        <li><a href="#keunggulan" class="text-slate-400 hover:text-primary-light transition-colors">Keunggulan</a></li>
+                        <li><a href="#testimoni" class="text-slate-400 hover:text-primary-light transition-colors">Testimoni Pelanggan</a></li>
+                        <li><a href="#tentang" class="text-slate-400 hover:text-primary-light transition-colors">Tentang Kami</a></li>
+                        <li><a href="#faq" class="text-slate-400 hover:text-primary-light transition-colors">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-6">Hubungi Kami</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-slate-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="map-pin" aria-hidden="true" class="lucide lucide-map-pin w-5 h-5 text-primary shrink-0 mt-0.5"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Jl. Ampera II No.1, Rawamangun, Jakarta Timur 13220</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="phone" aria-hidden="true" class="lucide lucide-phone w-5 h-5 text-primary shrink-0"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path></svg>
+                            <span>+62 857-7000-0774</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-slate-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="clock" aria-hidden="true" class="lucide lucide-clock w-5 h-5 text-primary shrink-0"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+                            <span>Setiap Hari: 10.00 - 22.00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800 text-center md:flex md:justify-between md:text-left">
+                <p class="text-slate-500 text-sm mb-4 md:mb-0">
+                    © 2023 Green Beauty Salon. All rights reserved.
+                </p>
+                <div class="flex justify-center space-x-4 text-sm text-slate-500">
+                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6285770000774?text=Halo%20Green%20Beauty%20Salon,%20saya%20tertarik%20untuk%20reservasi." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-xl hover:scale-110 hover:shadow-2xl transition-all duration-300 group flex items-center justify-center">
+        <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"></path>
+        </svg>
+        <span class="absolute right-16 bg-white text-slate-800 text-sm font-bold px-4 py-2 rounded-xl shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap border border-slate-100">
+            Reservasi Sekarang!
+        </span>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const icon = document.getElementById('menu-icon');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            if (menu.classList.contains('hidden')) {
+                icon.setAttribute('data-lucide', 'menu');
+            } else {
+                icon.setAttribute('data-lucide', 'x');
+            }
+            lucide.createIcons();
+        });
+
+        // Close mobile menu on link click
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+                icon.setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            });
+        });
+
+        // Navbar styling on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.replace('bg-white/90', 'bg-white/95');
+            } else {
+                navbar.classList.remove('shadow-md');
+                navbar.classList.replace('bg-white/95', 'bg-white/90');
+            }
+        });
+
+        // Scroll Animation (Intersection Observer)
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in-up').forEach((elem) => {
+            observer.observe(elem);
+        });
+    </script>
+
+</body></html>
